@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StellarPayRoll.Core", "StellarPayRoll.Core\StellarPayRoll.Core.csproj", "{8440D379-F9ED-4BD3-AD63-3E8CEA7DDE2D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{5C2A854A-647D-4C6A-8E5D-087D9379B942}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StellarPayRoll.Data", "StellarPayRoll.Data\StellarPayRoll.Data.csproj", "{A42E3807-54BA-4709-AB35-979A25A9C808}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StellarPayRoll.Domain", "StellarPayRoll.Domain\StellarPayRoll.Domain.csproj", "{8EFDA3D2-1E6A-432B-AA2C-2BA8844721C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StellarPayRoll.IOC", "StellarPayRoll.IOC\StellarPayRoll.IOC.csproj", "{A324F3F1-0570-4B07-A21A-A9CB962C0CC6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{E678FDC4-4138-428F-978F-F6EFB97BD5EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StellarPayRoll.API", "StellarPayRoll.API\StellarPayRoll.API.csproj", "{989F2201-DE93-4454-A561-9DBAD1CF648E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8440D379-F9ED-4BD3-AD63-3E8CEA7DDE2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8440D379-F9ED-4BD3-AD63-3E8CEA7DDE2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8440D379-F9ED-4BD3-AD63-3E8CEA7DDE2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8440D379-F9ED-4BD3-AD63-3E8CEA7DDE2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A42E3807-54BA-4709-AB35-979A25A9C808}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A42E3807-54BA-4709-AB35-979A25A9C808}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A42E3807-54BA-4709-AB35-979A25A9C808}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A42E3807-54BA-4709-AB35-979A25A9C808}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EFDA3D2-1E6A-432B-AA2C-2BA8844721C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EFDA3D2-1E6A-432B-AA2C-2BA8844721C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EFDA3D2-1E6A-432B-AA2C-2BA8844721C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EFDA3D2-1E6A-432B-AA2C-2BA8844721C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A324F3F1-0570-4B07-A21A-A9CB962C0CC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A324F3F1-0570-4B07-A21A-A9CB962C0CC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A324F3F1-0570-4B07-A21A-A9CB962C0CC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A324F3F1-0570-4B07-A21A-A9CB962C0CC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{989F2201-DE93-4454-A561-9DBAD1CF648E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{989F2201-DE93-4454-A561-9DBAD1CF648E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{989F2201-DE93-4454-A561-9DBAD1CF648E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{989F2201-DE93-4454-A561-9DBAD1CF648E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A42E3807-54BA-4709-AB35-979A25A9C808} = {5C2A854A-647D-4C6A-8E5D-087D9379B942}
+		{8EFDA3D2-1E6A-432B-AA2C-2BA8844721C5} = {5C2A854A-647D-4C6A-8E5D-087D9379B942}
+		{989F2201-DE93-4454-A561-9DBAD1CF648E} = {E678FDC4-4138-428F-978F-F6EFB97BD5EB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D588B4A3-F0B9-4A14-8803-E6C5C0BA7282}
+	EndGlobalSection
+EndGlobal
