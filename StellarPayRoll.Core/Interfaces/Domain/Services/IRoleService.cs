@@ -1,7 +1,6 @@
-﻿using StellarPayRoll.Core.Models;
-using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using StellarPayRoll.Core.Dtos;
+using StellarPayRoll.Core.Models;
+using StellarPayRoll.Core.Paging;
 using System.Threading.Tasks;
 
 namespace StellarPayRoll.Core.Domain.Services
@@ -11,5 +10,9 @@ namespace StellarPayRoll.Core.Domain.Services
         public Task<BaseResponse> CreateRoleAsync(CreateRoleRequestModel model);
 
         Task<RolesResponseModel> GetRoles();
+
+        Task<RolesResponseModel> GetRoles(bool isAdmin);
+
+        Task<PaginatedList<RoleDto>> LoadRolesAsync(string filter, int page, int limit);
     }
 }

@@ -5,7 +5,24 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.12">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="6.1.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="6.1.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="6.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\StellarPayRoll.Core\StellarPayRoll.Core.csproj" />
+    <ProjectReference Include="..\StellarPayRoll.Domain\StellarPayRoll.Domain.csproj" />
+    <ProjectReference Include="..\StellarPayRoll.IOC\StellarPayRoll.IOC.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="ActionResults\" />
   </ItemGroup>
 
 </Project>

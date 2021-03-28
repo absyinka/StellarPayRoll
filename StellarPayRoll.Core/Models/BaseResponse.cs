@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace StellarPayRoll.Core.Models
+﻿namespace StellarPayRoll.Core.Models
 {
     public class BaseResponse
     {

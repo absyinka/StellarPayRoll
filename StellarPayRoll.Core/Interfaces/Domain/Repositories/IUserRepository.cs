@@ -1,8 +1,6 @@
 ﻿using StellarPayRoll.Core.Dtos;
 using StellarPayRoll.Core.Entities;
-using System;
-using System.Collections.Generic;
-using System.Text;
+using StellarPayRoll.Core.Paging;
 using System.Threading.Tasks;
 
 namespace StellarPayRoll.Core.Domain.Repositories
@@ -11,7 +9,7 @@ namespace StellarPayRoll.Core.Domain.Repositories
     {
         Task<User> GetUserAsync(string email);
 
-        //Task<PaginatedList<UserDto>> LoadUsersAsync(string filter, int page, int limit);
+        Task<PaginatedList<UserDto>> LoadUsersAsync(string filter, int page, int limit);
 
     }
 }
