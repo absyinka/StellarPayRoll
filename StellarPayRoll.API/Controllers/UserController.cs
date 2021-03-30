@@ -1,4 +1,4 @@
-﻿using IDH.Core.Models.Datatable;
+﻿using StellarPayRoll.Core.Models.Datatable;
 using Microsoft.AspNetCore.Mvc;
 using StellarPayRoll.Core.Domain.Services;
 using System.Linq;

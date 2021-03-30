@@ -1,20 +1,22 @@
-﻿using StellarPayRoll.Core.Dtos;
+﻿using StellarPayRoll.Core.Attributes;
+using StellarPayRoll.Core.Dtos;
 using StellarPayRoll.Core.Paging;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Text;
 
 namespace StellarPayRoll.Core.Models
 {
     public class RegisterUserRequestModel
     {   
         [Required]
+        [EmailAddress]
         public string Email { get; set; }
 
+        [Required]
         public string Password { get; set; }
 
-        [Required]
+        [EnumerableRequired]
         public IList<Guid> Roles { get; set; } = new List<Guid>();
 
     }

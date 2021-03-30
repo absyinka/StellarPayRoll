@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 
 
-namespace IDH.Core.Models.Datatable
+namespace StellarPayRoll.Core.Models.Datatable
 {
     public class DatatableRequestModelBinder : IModelBinder
     {

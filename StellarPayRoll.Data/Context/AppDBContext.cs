@@ -29,9 +29,10 @@ namespace StellarPayRoll.Data.Context
         public override Task<int> SaveChangesAsync(bool acceptAllChangesOnSuccess, CancellationToken cancellationToken = default)
         {
             UpdateSoftDeleteStatuses();
+
             this.AddAuditInfo();
-            return base.SaveChangesAsync(acceptAllChangesOnSuccess,
-                cancellationToken);
+
+            return base.SaveChangesAsync(acceptAllChangesOnSuccess, cancellationToken);
         }
 
         private const string IsDeletedProperty = "IsDeleted";

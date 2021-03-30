@@ -1,4 +1,4 @@
-﻿namespace IDH.Core.Models.Datatable
+﻿namespace StellarPayRoll.Core.Models.Datatable
 {
     public class DatatablePagination
     {

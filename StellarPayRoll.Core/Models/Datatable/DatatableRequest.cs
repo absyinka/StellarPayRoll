@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
 
-namespace IDH.Core.Models.Datatable
+namespace StellarPayRoll.Core.Models.Datatable
 {
     [ModelBinder(BinderType = typeof(DatatableRequestModelBinder))]
     public class DatatableRequest

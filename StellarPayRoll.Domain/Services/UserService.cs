@@ -65,7 +65,7 @@ namespace StellarPayRoll.Domain.Services
             return new BaseResponse
             {
                 Status = true,
-                Message = $"User with {roles} successfully created"
+                Message = $"User successfully created"
             };
 
         }
