@@ -1,5 +1,4 @@
-﻿using StellarPayRoll.Core.Models.Entities;
-using StellarPayRoll.Core.Models.Enums;
+﻿using StellarPayRoll.Core.Models.Enums;
 using System;
 
 namespace StellarPayRoll.Core.Dtos
@@ -38,9 +37,7 @@ namespace StellarPayRoll.Core.Dtos
 
         public UnionMember UnionMember { get; set; }
 
-        public AddressDetail Address { get; set; }
-
-        public BankDetail BankDetail { get; set; }
+        public string ImageUrl { get; set; }
 
     }
 }
