@@ -1,4 +1,4 @@
-﻿using StellarPayRoll.Core.Entities;
+﻿using StellarPayRoll.Core.Models.Entities;
 using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
 

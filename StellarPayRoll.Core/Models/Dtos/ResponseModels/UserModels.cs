@@ -5,11 +5,12 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace StellarPayRoll.Core.Models
+namespace StellarPayRoll.Core.Models.Dtos.ResponseModels
 {
     public class RegisterUserRequestModel
     {   
         [Required]
+        [DataType(DataType.EmailAddress)]
         [EmailAddress]
         public string Email { get; set; }
 

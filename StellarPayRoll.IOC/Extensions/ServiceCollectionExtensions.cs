@@ -4,7 +4,7 @@ using Microsoft.Extensions.DependencyInjection;
 using StellarPayRoll.Core.Domain.Identity;
 using StellarPayRoll.Core.Domain.Repositories;
 using StellarPayRoll.Core.Domain.Services;
-using StellarPayRoll.Core.Entities;
+using StellarPayRoll.Core.Models.Entities;
 using StellarPayRoll.Data.Context;
 using StellarPayRoll.Domain.Identity;
 using StellarPayRoll.Domain.Repositories;

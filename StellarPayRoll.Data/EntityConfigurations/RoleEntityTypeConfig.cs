@@ -1,7 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using StellarPayRoll.Core.Entities;
-using System;
+using StellarPayRoll.Core.Models.Entities;
 
 namespace StellarPayRoll.Data.EntityConfigurations
 {

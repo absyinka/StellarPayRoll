@@ -1,5 +1,5 @@
 ﻿using StellarPayRoll.Core.Dtos;
-using StellarPayRoll.Core.Entities;
+using StellarPayRoll.Core.Models.Entities;
 using StellarPayRoll.Core.Paging;
 using System.Threading.Tasks;
 

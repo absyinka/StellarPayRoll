@@ -57,8 +57,7 @@ namespace StellarPayRoll.API
                 options.RequireHttpsMetadata = false;
             });
 
-            services.Configure<DataProtectionTokenProviderOptions>(o =>
-                o.TokenLifespan = TimeSpan.FromHours(3));
+            services.Configure<DataProtectionTokenProviderOptions>(o => o.TokenLifespan = TimeSpan.FromHours(3));
 
             services.AddMvc(options =>
             {
@@ -87,11 +86,13 @@ namespace StellarPayRoll.API
             app.UseHttpsRedirection();
             app.UseRouting();
             app.UseCors(policy => policy.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+
             //app.UseSwagger();
             //app.UseSwaggerUI(c =>
             //{
-            //    c.SwaggerEndpoint("/swagger/v1/swagger.json", "IDH API");
+            //    c.SwaggerEndpoint("/swagger/v1/swagger.json", "StellarPayRoll API");
             //});
+
             app.UseAuthentication();
             app.UseAuthorization();
 

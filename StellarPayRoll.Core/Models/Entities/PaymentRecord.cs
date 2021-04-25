@@ -1,9 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Text;
 
-namespace StellarPayRoll.Core.Entities
+namespace StellarPayRoll.Core.Models.Entities
 {
     public class PaymentRecord : BaseEntity
     {
@@ -49,7 +47,7 @@ namespace StellarPayRoll.Core.Entities
         public decimal? UnionFee { get; set; }
 
         [Column(TypeName = "money")]
-        public Nullable<decimal> SLC { get; set; }
+        public decimal? SLC { get; set; }
         [Column(TypeName = "money")]
         public decimal TotalEarnings { get; set; }
 

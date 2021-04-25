@@ -19,8 +19,11 @@
 
   <ItemGroup>
     <ProjectReference Include="..\StellarPayRoll.Core\StellarPayRoll.Core.csproj" />
-    <ProjectReference Include="..\StellarPayRoll.Domain\StellarPayRoll.Domain.csproj" />
     <ProjectReference Include="..\StellarPayRoll.IOC\StellarPayRoll.IOC.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\" />
   </ItemGroup>
 
 </Project>

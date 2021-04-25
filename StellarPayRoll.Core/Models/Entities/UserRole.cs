@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace StellarPayRoll.Core.Entities
+namespace StellarPayRoll.Core.Models.Entities
 {
     public class UserRole : BaseEntity
     {

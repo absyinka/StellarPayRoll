@@ -1,4 +1,4 @@
-﻿namespace StellarPayRoll.Core.Models
+﻿namespace StellarPayRoll.Core.Models.Dtos.ResponseModels
 {
     public class BaseResponse
     {

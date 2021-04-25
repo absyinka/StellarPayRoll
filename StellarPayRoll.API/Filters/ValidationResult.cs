@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
-using StellarPayRoll.Core.Models;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
+using StellarPayRoll.Core.Models.Dtos.ResponseModels;
 
 namespace StellarPayRoll.API.Filters
 {

@@ -11,7 +11,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\StellarPayRoll.Core\StellarPayRoll.Core.csproj" />
-    <ProjectReference Include="..\StellarPayRoll.Data\StellarPayRoll.Data.csproj" />
     <ProjectReference Include="..\StellarPayRoll.Domain\StellarPayRoll.Domain.csproj" />
   </ItemGroup>
 

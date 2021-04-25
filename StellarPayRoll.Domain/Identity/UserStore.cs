@@ -1,11 +1,10 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using StellarPayRoll.Core.Entities;
+using StellarPayRoll.Core.Models.Entities;
 using StellarPayRoll.Data.Context;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 

@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using StellarPayRoll.Core.Entities;
+using StellarPayRoll.Core.Models.Entities;
 using StellarPayRoll.Data.Extensions;
 using System.Threading;
 using System.Threading.Tasks;

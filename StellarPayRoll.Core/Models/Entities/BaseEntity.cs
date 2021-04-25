@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace StellarPayRoll.Core.Entities
+namespace StellarPayRoll.Core.Models.Entities
 {
     public abstract class BaseEntity : ISoftDelete, IAuditBase
     {

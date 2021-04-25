@@ -3,12 +3,12 @@ using System.Threading.Tasks;
 using StellarPayRoll.API.ActionResults;
 using StellarPayRoll.API.Helpers;
 using StellarPayRoll.Core.Exceptions;
-using StellarPayRoll.Core.Models;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using StellarPayRoll.Core.Models.Dtos.ResponseModels;
 
 namespace StellarPayRoll.API.Filters
 {

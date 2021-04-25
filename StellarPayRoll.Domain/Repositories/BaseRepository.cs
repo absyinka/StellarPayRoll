@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using StellarPayRoll.Core.Domain.Repositories;
-using StellarPayRoll.Core.Entities;
+using StellarPayRoll.Core.Models.Entities;
 using StellarPayRoll.Data.Context;
 using System;
 using System.Collections.Generic;

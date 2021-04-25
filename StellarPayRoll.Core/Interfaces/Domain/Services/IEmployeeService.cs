@@ -2,11 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace StellarPayRoll.Core.Entities
+namespace StellarPayRoll.Core.Domain.Services
 {
-    public enum Loan
+    public interface IEmployeeService
     {
-        Yes, 
-        No
     }
 }

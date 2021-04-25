@@ -2,10 +2,10 @@
 using StellarPayRoll.Core.Domain.Repositories;
 using StellarPayRoll.Core.Domain.Services;
 using StellarPayRoll.Core.Dtos;
-using StellarPayRoll.Core.Entities;
 using StellarPayRoll.Core.Exceptions;
 using StellarPayRoll.Core.Helpers;
-using StellarPayRoll.Core.Models;
+using StellarPayRoll.Core.Models.Dtos.ResponseModels;
+using StellarPayRoll.Core.Models.Entities;
 using StellarPayRoll.Core.Paging;
 using System;
 using System.Collections.Generic;

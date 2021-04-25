@@ -3,13 +3,11 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
-using StellarPayRoll.API.Filters;
 using StellarPayRoll.Core.Domain.Identity;
 using StellarPayRoll.Core.Domain.Services;
-using StellarPayRoll.Core.Entities;
-using StellarPayRoll.Core.Models;
+using StellarPayRoll.Core.Models.Dtos.ResponseModels;
+using StellarPayRoll.Core.Models.Entities;
 using System;
-using System.Net;
 using System.Threading.Tasks;
 
 namespace StellarPayRoll.API.Controllers

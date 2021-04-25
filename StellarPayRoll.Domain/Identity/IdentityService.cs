@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using StellarPayRoll.Core.Domain.Identity;
-using StellarPayRoll.Core.Entities;
+using StellarPayRoll.Core.Models.Entities;
 using System;
 using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
